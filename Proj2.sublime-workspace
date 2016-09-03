@@ -1,0 +1,904 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"twoREg",
+				"twoRegValueL"
+			],
+			[
+				"DS1307",
+				"RTC_DS1307"
+			],
+			[
+				"READ",
+				"READ_QUEUE_LENGTH"
+			],
+			[
+				"queue",
+				"READ_QUEUE_LENGTH"
+			],
+			[
+				"RTC",
+				"RTC_DS1307"
+			],
+			[
+				"in",
+				"inc	#include \"…\""
+			],
+			[
+				"parit",
+				"parity_int"
+			],
+			[
+				"pa",
+				"parity_int"
+			],
+			[
+				"par",
+				"parity_int"
+			],
+			[
+				"long",
+				"long"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"a",
+				"AMOTOR_SPEED_PIN"
+			],
+			[
+				"AMO",
+				"AMOTOR_DIR_PIN"
+			],
+			[
+				"BMOT",
+				"BMOTOR_SPEED_PIN"
+			],
+			[
+				"OFF2",
+				"OFF2_INT"
+			],
+			[
+				"stud",
+				"stud_end"
+			],
+			[
+				"getpos_c",
+				"getpos_club"
+			],
+			[
+				"getpos_",
+				"getpos_club"
+			],
+			[
+				"true",
+				"true_intersection"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"M",
+				"M"
+			],
+			[
+				"ii",
+				"ii"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"po",
+				"pop_front"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "salinity_ph.cpp",
+			"settings":
+			{
+				"buffer_size": 967,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ADXL362.cpp",
+			"settings":
+			{
+				"buffer_size": 8549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "csv_export.h",
+			"settings":
+			{
+				"buffer_size": 903,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "temp_sensor.h",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ph_sensor.h",
+			"settings":
+			{
+				"buffer_size": 659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cond_probe.h",
+			"settings":
+			{
+				"buffer_size": 681,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "RTClib.h",
+			"settings":
+			{
+				"buffer_size": 1365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "makefile",
+			"settings":
+			{
+				"buffer_size": 753,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/ph_sensor.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/cond_probe.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/temp_sensor.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/temp1.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/main.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/rtc_test.cpp",
+		"/C/Users/Rene/AppData/Local/Temp/Rar$DIa0.678/lcd_ui_test.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/lcd_ui.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/weather_system.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Forces/2016-01-25/lcd_ui.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/wintogal.bat",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/analog_pin.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/ADXL362.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/csv_export.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/RTClib.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/RTClib.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/csv_export.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/ph_sensor.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/accel_test.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/makefile",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/analog_pin.h",
+		"/C/Users/Rene/Documents/arduino-1.6.6/libraries/annem-ADXL362-0e44374/ADXL362.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/ADXL362.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/galtowin.bat",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/main",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/make",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/client's notes.txt",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/IP.txt",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/cond_probe.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/temp_sensor.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/io_queue.h",
+		"/C/Users/Rene/Documents/Arduino/onewiretest/onewiretest.ino",
+		"/F/Setup.ini",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/OneWire.h",
+		"/C/Users/Rene/AppData/Local/Arduino15/preferences.txt",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/OneWire-master/OneWire-master/OneWire.cpp",
+		"/C/Users/Rene/Documents/arduino-1.6.6/libraries/OneWire-master/src/OneWire.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/main2.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/OneWire-master/OneWire-master/OneWire.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/io_queue.cpp",
+		"/e/p/giaw/src/pkg/mingwrt-4.0.3-1-mingw32-src/mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/main.c",
+		"/C/Users/Rene/Documents/ProgPlayground/Kattis/bridgebuilders.in",
+		"/C/Users/Rene/Documents/ProgPlayground/Kattis/evenland.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Kattis/bridgebuilders.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Kattis/undetected.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Kattis/order.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12283.in",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/November/Challenge/SMPLSUM.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/November/Challenge/KFUNC.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/November/Challenge/EGRCAKE.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12283.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12282.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12282.out",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12282.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12281.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/csv_export/csv_export.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/csv_export/csv_export.h",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/test.txt",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12880.out",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12880.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/12880.cpp",
+		"/C/Users/Rene/android-sdks/sources/android-23/android/net/MailTo.java",
+		"/C/Users/Rene/AppData/Local/Temp/Rar$DIa0.969/RTClib.cpp",
+		"/C/Users/Rene/AppData/Local/Temp/Rar$DIa0.480/RTClib.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj1/main.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/RTC.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/RTC.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/IP.txt",
+		"/C/Users/Rene/AppData/Local/Temp/Rar$DIa0.291/RTClib.h",
+		"/C/Users/Rene/AppData/Local/Temp/Rar$DIa0.454/RTClib.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj1/motor.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/sensor.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj2/sensor.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj1/sensor.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Galileo/Proj1/sensor.h",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/test2.out",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/POUR1.in",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/test1.out",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/RRFRNDS.in",
+		"/C/Users/Rene/Documents/ProgPlayground/Things to add to team notebook",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/tester.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/temp.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/ONEKING.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/POUR1.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/RRFRNDS.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/TAAND.in",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/NOKIA.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/TAAND.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Forces/2015-10-28/Practice 1/A.in",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/AND.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/NUMFACT.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/MIXTURES.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Forces/2015-10-28/Practice 1/A.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/ARRAYTRM.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Forces/2015-10-26/Practice 1/B.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Forces/2015-10-26/Practice 1/A.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/SEAVOTE.in",
+		"/C/Users/Rene/Documents/ProgPlayground/Code Chef/Practice/SEAVOTE.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/11695.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/SEAVOTE.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10210.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/1221.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/11695.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/1221.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10210.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/11105.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10871.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/11105.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10871.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10804.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10804.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10566.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10566.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10606.java",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10372.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/10372.cpp",
+		"/C/Users/Rene/workspace/smartcardapi-v2.2/Readme.txt",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/1280.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/1280.cpp",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/714.in",
+		"/C/Users/Rene/Documents/ProgPlayground/UVa/714.cpp",
+		"/C/Users/Rene/workspace/smartcardapi-v2.3/Readme.txt",
+		"/C/Users/Rene/Documents/ProgPlayground/Others/Temp.java",
+		"/C/Users/Rene/workspace/RFID Scanner/src/smartcardapi/SmartCardSystem.java",
+		"/C/Users/Rene/workspace/RFID Scanner/src/sqldb/DatabaseHandler.java",
+		"/C/Users/Rene/OneDrive/Documents/galileo.txt",
+		"/C/Users/Rene/Documents/ProgPlayground/Kattis/infiltration.cpp",
+		"/C/Users/Rene/Documents/IEEE Member Numbers"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ss",
+			"SPI.transfer",
+			"SPI.transfer(0x00)",
+			"Serial.println(SPI.transfer(0x00), HEX);",
+			"Serial.println",
+			"Serial.print",
+			"byte",
+			"i2c",
+			"0",
+			"%d",
+			"drive",
+			"docs",
+			"analog_input",
+			";\n",
+			"};\n",
+			"else",
+			"pgm_read_byte",
+			"Wire.beginTransmission(DS1307_ADDRESS);",
+			"Wire.write",
+			");\n",
+			"21",
+			"i*4+1",
+			"for(int i=0; i<120; i++)\n		for(int j=0; j<120; j++)\n			tres[i][j] = res[i][j];\n\n	for(int i=0; i<120; i++)\n		visited[i] = false;",
+			"integ",
+			";\n",
+			"		\n",
+			"jacs",
+			"bReset",
+			"14",
+			"main",
+			"3",
+			"#",
+			"LIMIT",
+			";\n",
+			"}\n",
+			"0",
+			"			\n",
+			"prev",
+			"{\n",
+			"3 4 5",
+			"+",
+			"ss",
+			"<<",
+			"cout",
+			"ypos",
+			"xpos",
+			"\n........",
+			"int",
+			"D",
+			"i",
+			"puts",
+			"printf",
+			"int",
+			"array",
+			"minx",
+			");\n",
+			"council",
+			"council_map",
+			"20 20",
+			"10 10",
+			";\n",
+			"c1",
+			"b1",
+			"a1",
+			"p2",
+			"p1",
+			"c1",
+			"b1",
+			"a1",
+			"p2",
+			"p1",
+			"c1",
+			"a1",
+			"arr",
+			"array",
+			");\n",
+			"(",
+			"<=",
+			"a",
+			"b",
+			"a",
+			"b",
+			"first",
+			"c",
+			"b",
+			"a",
+			"]\n",
+			"N",
+			"3",
+			"1",
+			"max",
+			"council_map",
+			"count",
+			"\n",
+			"2",
+			"k",
+			"primes[i]",
+			"	\n",
+			"memo3",
+			"dp3",
+			"memo1",
+			"dp1",
+			"a",
+			"1<<25",
+			",flow2",
+			"];\n",
+			"ca",
+			"#\n",
+			"j.",
+			"temp2",
+			"MOD",
+			";\n",
+			");\n",
+			"l1.",
+			");\n",
+			"||",
+			"int",
+			"0",
+			"))",
+			"hash[iiii(ii(xs,ys),ii(xe,ye))]",
+			"rec1",
+			"k",
+			"MAKE",
+			"MAKE.at(counter)",
+			"!=",
+			"MAKE.at(counter)",
+			"graph2",
+			"] "
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"st",
+			"spi->writeByte",
+			"spi->writeByte(0x00)",
+			"printf(\"%x\\n\",SPI.transfer(0x00));",
+			"printf",
+			"uint8_t",
+			"i",
+			"%ld",
+			"analog_pin",
+			"",
+			"mraa::I2c *ic2 = new mraa::I2c(0);",
+			"i2c->writeByte",
+			"v",
+			"f",
+			"1024",
+			"n-1",
+			"prevx",
+			"+=",
+			"ans",
+			"+",
+			"ss",
+			"ystart",
+			"xstart",
+			"arr",
+			"party",
+			"club_map",
+			"c2",
+			"b2",
+			"a2",
+			"p4",
+			"p3",
+			"c2",
+			"b2",
+			"a2",
+			"p4",
+			"p3",
+			"c2",
+			"a2",
+			"seg",
+			"array1",
+			"comp(",
+			",",
+			"b",
+			"c",
+			"b",
+			"c",
+			"second",
+			"z",
+			"y",
+			"x",
+			"k",
+			"party_map",
+			"counter",
+			"v",
+			"memo4",
+			"dp4",
+			"memo2",
+			"dp2",
+			"INF",
+			",flow2+temp.cost",
+			"g.",
+			"l2.",
+			"&&",
+			"hash[id]",
+			"check",
+			"ans",
+			"[j+1]",
+			"second"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "salinity_ph.cpp",
+					"settings":
+					{
+						"buffer_size": 967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ADXL362.cpp",
+					"settings":
+					{
+						"buffer_size": 8549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1106,
+								1106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 284.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "csv_export.h",
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "temp_sensor.h",
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ph_sensor.h",
+					"settings":
+					{
+						"buffer_size": 659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "cond_probe.h",
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								499,
+								505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "RTClib.h",
+					"settings":
+					{
+						"buffer_size": 1365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								874,
+								874
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "makefile",
+					"settings":
+					{
+						"buffer_size": 753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.509336103855,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.925037481259,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}

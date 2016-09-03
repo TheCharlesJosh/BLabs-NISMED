@@ -1,0 +1,5 @@
+running average of 20 mins. of DO and tempertaure. and for PH and Salinity.
+get data per minute
+average those data for 20 mins so 20 readings averaged
+
+All data in one table

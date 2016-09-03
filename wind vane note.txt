@@ -1,0 +1,14 @@
+Note on the wind vane:
+
+I can only find 6 discernible sections.
+I'll just collect them and do a majority vote thingo.
+
+Center	#	Range (+-)	Center Angle
+551		4	1			168.75
+609		3	1			135
+635		2	1			90
+653		5	1			225
+662		1	1			45
+668		0	2			326.25
+
+Calculated the most probable direction (NWSE) using a weighted modular least squares error algorithm
