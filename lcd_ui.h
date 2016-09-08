@@ -3,7 +3,6 @@
 
 #include "jhd1313m1.h"
 #include "mraa.hpp"
-#include "temp_sensor.h"
 #include "RTClib.h"
 #include <time.h>
 #include <unistd.h>
@@ -51,7 +50,7 @@ private:
 	static void press_down(void*);
 	static void press_select(void*);
 
-	bool start_set; //1 if start() has been called
+	bool isr_set; //1 if start() has been called
 public:
 	lcd(int DPIN_DOWN = DPIN_DOWN_DEFAULT, int DPIN_SELECT = DPIN_SELECT_DEFAULT);
 	~lcd();
@@ -64,6 +63,9 @@ public:
 
 	void reset_isr(int); // set isr to default option
 	void reset_isr(int, void(*)(void *));
+
+	bool check_pressed_down(); //check if state of down button is at the rising edge
+	bool check_pressed_select(); //check if state of select button is at the rising edge
 };
 
 #endif

@@ -9,8 +9,7 @@ private:
 	mraa::Aio *pin;
 
 public:
-	analog_pin():pin(0){}
-	analog_pin(int pin_num);
+	analog_pin(int pin_num = 0);
 	~analog_pin();
 
 	void set_pin(int pin_num);

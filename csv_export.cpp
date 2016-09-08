@@ -1,3 +1,6 @@
+#ifndef CSV_EXPORT
+#define CSV_EXPORT
+
 #include "csv_export.h"
 #include <fstream>
 
@@ -104,3 +107,5 @@ int csv_export::create_headers_v(std::vector<std::string> headers, char delim)
 	fs.close();
 	return 1;
 }
+
+#endif

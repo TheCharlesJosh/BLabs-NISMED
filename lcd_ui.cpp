@@ -1,3 +1,6 @@
+#ifndef LCD_UI
+#define LCD_UI
+
 #include "lcd_ui.h"
 
 lcd::lcd(int DPIN_DOWN, int DPIN_SELECT)
@@ -19,7 +22,7 @@ lcd::lcd(int DPIN_DOWN, int DPIN_SELECT)
 	current_mode = START_MODE;
 	current_option = 0;
 
-	start_set = false;
+	isr_set = false;
 }
 lcd::~lcd()
 {
@@ -50,6 +53,8 @@ void lcd::start()
 	this->reset_isr(DPIN_DOWN_DEFAULT);
 	this->reset_isr(DPIN_SELECT_DEFAULT);
 
+	isr_set = true;
+
 	this->screen->displayOn();
 
 	if(this->option_names.size() == 0)
@@ -65,21 +70,19 @@ void lcd::start()
 		if(this->current_mode != START_MODE)
 		{
 			this->option_functions[(this->current_mode)](this);
+			std::cout << "Finished option #" << this->current_mode << std::endl;
 			this->current_mode = START_MODE;
+
+			this->reset_isr(DPIN_DOWN_DEFAULT);
+			this->reset_isr(DPIN_SELECT_DEFAULT);
 
 			this->update_screen(this->option_names[this->current_option], (this->option_names.size() > 1)?this->option_names[this->current_option + 1]:"");
 		}
-
-		this->reset_isr(DPIN_DOWN_DEFAULT);
-		this->reset_isr(DPIN_SELECT_DEFAULT);
-
 		// RTC_DS1307::RTC_sleep(1);
 		sleep(1);
 
 		std::cout << this->current_mode << " " << this->current_option << std::endl;
 	}
-
-	start_set = true;
 }
 
 void lcd::press_down(void* args)
@@ -89,12 +92,14 @@ void lcd::press_down(void* args)
 	if(temp->button_down->read() == 0)
 		return;
 
+	std::cout << "Pressed DEFAULT_DOWN" << std::endl;
+
 	(temp->current_option)++;
 
-	if(temp->current_option > temp->option_names.size() - 1)
+	if(temp->current_option > ((int) temp->option_names.size()) - 1)
 		temp->current_option = 0;
 
-	temp->update_screen(temp->option_names[temp->current_option], (temp->current_option == temp->option_names.size() - 1)?"":temp->option_names[temp->current_option + 1]);
+	temp->update_screen(temp->option_names[temp->current_option], (temp->current_option == ((int) temp->option_names.size()) - 1)?"":temp->option_names[temp->current_option + 1]);
 }
 
 void lcd::press_select(void* args)
@@ -103,6 +108,8 @@ void lcd::press_select(void* args)
 
 	if(temp->button_select->read() == 0)
 		return;
+
+	std::cout << "Pressed DEFAULT_SELECT" << std::endl;
 
 	if(temp->option_functions[temp->current_mode] == NULL)
 	{
@@ -127,15 +134,20 @@ void lcd::reset_isr(int pin)
 			break;
 	}
 
-	if(start_set)
+	if(isr_set)
+	{
+		std::cout << "ISR EXIT FOR PIN " << pin << std::endl;
 		button->isrExit();
+	}
 
 	switch(pin)
 	{
 		case DPIN_DOWN_DEFAULT:
+			std::cout << "DEFAULT ISR SET FOR PIN" << pin << std::endl;
 			button->isr(mraa::EDGE_BOTH, &(lcd::press_down), this);
 			break;
 		case DPIN_SELECT_DEFAULT:
+			std::cout << "DEFAULT ISR SET FOR PIN" << pin << std::endl;
 			button->isr(mraa::EDGE_BOTH, &(lcd::press_select), this);
 			break;
 	}
@@ -155,16 +167,33 @@ void lcd::reset_isr(int pin, void(*fptr)(void *))
 			break;
 	}
 
-	if(start_set)
+	if(isr_set)
+	{
+		std::cout << "ISR EXIT FOR PIN " << pin << std::endl;
 		button->isrExit();
+	}
 
 	switch(pin)
 	{
 		case DPIN_DOWN_DEFAULT:
 			button->isr(mraa::EDGE_BOTH, fptr, this);
+			std::cout << "CUSTOM ISR SET FOR PIN" << pin << std::endl;
 			break;
 		case DPIN_SELECT_DEFAULT:
 			button->isr(mraa::EDGE_BOTH, fptr, this);
+			std::cout << "CUSTOM ISR SET FOR PIN" << pin << std::endl;
 			break;
 	}
 }
+
+bool lcd::check_pressed_down()
+{
+	return this->button_down->read() == 0;
+}
+
+bool lcd::check_pressed_select()
+{
+	return this->button_select->read() == 0;
+}
+
+#endif
